@@ -1,0 +1,311 @@
+/*This is the style for the document(html)*/
+html {
+    font-family: Calibri,sans-serif; 
+}
+
+body {
+    background-color: rgb(247, 247, 247);
+}
+
+.white-bg {
+    background-color: white;
+}
+
+.icon-shaddow2 {
+    border-radius: 8px;
+}
+.icon-shaddow3 {
+    border-radius: 8px;
+}
+
+.icon-shaddow:hover {
+    box-shadow: 1px 2px 7px 3px rgb(116, 108, 2);
+    border-radius: 8px;
+    transform: scale(1.1);
+}
+
+.icon-shaddow{
+    border: 2px solid rgb(230, 230, 230);
+    border-radius: 8px;
+    transition: transform 0.15s;
+}
+
+.icon-scale img {
+    transition: transform 2s;
+}
+
+.icon-scale:hover img {
+    transform: scale(1.2);
+}
+
+.box-shaddow {
+    border-radius: 2px;
+    box-shadow: 3px 5px 10px 8px rgb(204, 204, 204); 
+}
+
+.circle {
+    transition: box-shadow 0.5s;
+}
+
+.circle:hover{ 
+   box-shadow: 1px 1px 6px 2px rgb(146, 144, 5);
+  }
+
+  .sm-text-shaddow {
+    transition: text-shadow ease-in-out 0.5s;
+}
+
+.sm-text-shaddow:hover{
+    text-shadow: 1px 5px 5px rgb(146, 144, 5);
+}
+
+/*.sm-text-shaddow-2 {
+    text-shadow: 3px 8px 3px;
+}*/
+
+p {
+    color: rgb(41, 41, 41);
+    font-weight: 100;
+    font-size: 16px;
+}
+
+#img-scale img {
+    transition: transform 1s;
+    border: 1px solid rgb(202, 200, 63);
+    border-radius: 5px;
+}
+.link-text{
+    background-color: rgb(36, 35, 35);
+    border-radius: 5px 2px;
+}
+
+/* .sub-contn-title{ 
+
+}*/
+
+
+.link-text a {
+    font-weight:700;
+    color: white;
+    font-size: 17px;
+    display: block;
+    transition: transform 1s;
+}
+
+.link-text:hover a {
+    transform: scale(1.1);
+}
+
+
+.img-scale {
+    border: 2px solid rgb(233, 233, 233); 
+    transition: box-shadow ease-in-out 0.5s;
+}
+
+.img-scale:hover { 
+    box-shadow: 1px 1px 6px 2px rgb(146, 144, 5);
+}
+
+.contn-link {
+    display: flex;
+    justify-content: center;
+
+}
+
+.img-scale img {
+    transition: transform 1s;
+    border: 1px solid rgb(231, 229, 73);
+    border-radius: 5px;
+}
+
+.img-scale:hover img {
+    transform: scale(1.2);
+}
+
+.link {
+    border: 1px solid rgb(231, 231, 0);
+    border-radius: 5px 2px;
+    overflow: hidden;
+}
+
+.link a{
+   font-size: 19px;
+   font-weight: 800;
+   text-decoration: none;
+   color: black;
+   display: flex;
+   transition: transform 0.5s;
+}
+
+.link-hover:hover {
+    background-color: rgb(36, 35, 35);
+    color: white;
+    border-radius: 5px 2px;
+    transform: scale(1.1);
+}
+
+.link-ftr {
+    border: 1px solid rgb(231, 231, 0);
+    border-radius: 5px 2px;
+    overflow: hidden;
+}
+
+.link-ftr a{
+   font-size: 15px;
+   font-weight: 800;
+   text-decoration: none;
+   color: black;
+   display: flex;
+   transition: transform 0.5s;
+}
+
+.link-hover:hover {
+    background-color: rgb(36, 35, 35);
+    color: white;
+    border-radius: 5px 2px;
+    transform: scale(1.1);
+}
+
+.icon-ftr-shaddow {
+    border: 1px solid rgb(199, 198, 198);
+    border-radius: 5px;
+}
+
+.contn-footer:hover {
+    border-radius: 2px;
+    box-shadow: 7px 10px 30px 22px rgb(231, 229, 73);
+}
+
+.icon-ftr-shaddow {
+    transition: transform 0.5s;
+}
+
+.icon-ftr-shaddow:hover {
+    border-radius: 5px;
+    box-shadow: 1px 2px 7px 3px rgb(116, 108, 2);
+    color: black;
+    background-color: rgb(255, 255, 222);
+    transform: scale(1.1);
+}
+
+.contn-footer-2:hover {
+    border-radius: 2px;
+    box-shadow: 7px 10px 30px 22px rgb(66, 81, 212);
+}
+
+.icon-ftr-shaddow-2 {
+    transition: transform 0.5s;
+    border: 1px solid yellow;
+    display: flex;
+    justify-content: center;
+}
+
+.icon-ftr-shaddow-2:hover {
+    border-radius: 5px;
+    box-shadow: 1px 2px 7px 3px rgb(0, 44, 109);
+    transform: scale(1.1);
+}
+
+/*This is the style of the header*/
+header {
+    font-size: 17px;
+}
+
+header > .h-box2 > nav > ul > li > a {
+    border-radius: 2px;
+    border: 1px solid rgb(233, 233, 233);    
+}
+
+header > .h-box2 > nav > ul > li:hover {
+    border-radius: 2px;
+    box-shadow: 7px 10px 30px 18px rgb(231, 229, 73);    
+}
+
+header > .h-box2 > nav > ul > li > a:hover{
+    border-radius: 2px;
+    box-shadow: 1px 1px 7px 2px rgb(116, 108, 2);
+    color: black;
+    background-color: rgb(255, 255, 222);
+    transform: scale(1.1);
+}
+
+header > .h-box2 > nav > ul > li > a {
+    width: 90px;
+    text-decoration: none;
+    color: rgb(100, 100, 100);
+    font-weight:300;
+    text-transform: uppercase;
+    transition: transform 0.08s;
+    transition: box-shadow 0.5s;
+    font-size: 15px;
+    display: block;
+    padding-left: 2px;
+    padding-right: 7px;
+}
+
+header > .h-box2 > nav > ul > li > a {
+    transition: box-shadow 0.7s;
+}
+/*This is the style for @Index.html-main*/
+main > .container > .m-box1 > #article1 > #section1 > figure > figcaption {
+    color: rgb(71, 71, 71);   
+}
+
+main > .container > .m-box1 > #article1 > #section1 > figure > img {
+    border-radius: 8px;
+}
+
+main > .container > .m-box1 > #article1 > #section2 > #m-art1-sect2 > h1 {
+    font-size: 6em;
+    text-align: center;  
+    transition: text-shadow ease-in-out 0.5s; 
+}
+main > .container > .m-box1 > #article1 > #section2 > #m-art1-sect2 > h1:hover {
+    text-shadow: 2px 8px 6px rgb(146, 144, 5);
+}
+
+main > .container > .m-box1 > #article1 > #section2 > #m-art1-sect2 > h1 + p {
+    font-size: 19px;
+    line-height: 20px;   
+}
+
+main > .container > .m-box1 > #article1 > #section2 > h2 {
+    text-align: center;   
+}
+
+main > .container > .m-box5 > article > section > div {
+    text-align: center;    
+}
+
+/*This is the style for Footer*/
+footer {
+    background-color: rgb(247, 247, 247);
+}
+
+.box1 > ul {
+    list-style-type: none;
+}
+
+.box2 > ul  {
+    list-style-type: none;
+}
+
+.box1 > ul > div > li > p {
+    font-size: 13px;
+}
+
+
+.box2 > h3  {
+    text-align: center;
+    font-size: 17px;
+}
+
+.box3 > h3 {
+    text-align: center;
+    font-size: 17px;
+}
+
+.box3 > p {
+    text-align: center;
+    font-size: 14px;
+}
