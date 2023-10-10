@@ -1,0 +1,57 @@
+{
+  "_from": "marquee-js",
+  "_id": "marquee-js@1.0.3",
+  "_inBundle": false,
+  "_integrity": "sha512-vyZm2dWvHN5n7NYWzf27TFihYAbs6HIkCtip89S070TKK7gO3DNEmu8kyB8cyrijaSpKUYYHap9jz4SpNvV69Q==",
+  "_location": "/marquee-js",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "marquee-js",
+    "name": "marquee-js",
+    "escapedName": "marquee-js",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/marquee-js/-/marquee-js-1.0.3.tgz",
+  "_shasum": "2809591a2bb157b36183e9bd34eaa7ce4ea10fd8",
+  "_spec": "marquee-js",
+  "_where": "C:\\Users\\MGUYF_ARTWORK",
+  "author": {
+    "name": "Maple Liu",
+    "url": "https://github.com/liujian10/marquee-js"
+  },
+  "bugs": {
+    "url": "https://github.com/liujian10/marquee-js/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Marquee plugin with Javascript support",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-useref": "^3.1.3"
+  },
+  "homepage": "https://github.com/liujian10/marquee-js#readme",
+  "keywords": [
+    "marquee"
+  ],
+  "license": "MIT",
+  "main": "dist/marquee.js",
+  "name": "marquee-js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liujian10/marquee-js.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.3"
+}

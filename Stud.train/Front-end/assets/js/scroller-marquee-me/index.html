@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script type="text/javascript" src="js/marquee-me.js"></script>
+    <script type="text/javascript" src="js/scripts.js" ></script>
+    <title>jQuery marquee-me Plugin Examples</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <h1>jQuery marquee-me Plugin Examples</h1>
+      <style>
+.download{ padding: 1.25rem; border:0; border-radius:3px; background-color:#4F46E5; color:#fff;cursor:pointer; text-decoration:none;}.download:hover{color: #fff}#carbonads{display:block;overflow:hidden;max-width:728px;position:relative;font-size:22px;box-sizing:content-box}#carbonads>span{display:block}#carbonads a{color:#4F46E5;text-decoration:none}#carbonads a:hover{color:#4F46E5}.carbon-wrap{display:flex;align-items:center}.carbon-img{display:block;margin:0;line-height:1}.carbon-img img{display:block;height:90px;width:auto}.carbon-text{display:block;padding:0 1em;line-height:1.35;text-align:left}.carbon-poweredby{display:block;position:absolute;bottom:0;right:0;padding:6px 10px;text-align:center;text-transform:uppercase;letter-spacing:.5px;font-weight:600;font-size:8px;border-top-left-radius:4px;line-height:1;color:#aaa!important}@media only screen and (min-width:320px) and (max-width:759px){.carbon-text{font-size:14px}}
+</style>
+<div><div id="carbon-block"></div><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2783044520727903"
+     crossorigin="anonymous"></script>
+<!-- jQuery_Replace_Demo -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2783044520727903"
+     data-ad-slot="7325992188"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+<p style="margin:2rem auto"><a class="download" href="https://www.jqueryscript.net/animation/scroller-marquee-me.html">Download This Plugin</a> <a class="download" href="https://www.jqueryscript.net/">Back To jQueryScript</a></p>
+      <p class="lead">A jQuery plugin for horizontal scrolling content that mimics the behavior of the traditional HTML marquee element.</p>
+      <div class="marquee" data-speed="slow">
+        <div class="marquee-container">
+          <!-- marqueue post starts here  -->
+          <div class="item">
+            <div class="col-row pad-5 border mar-2">
+              <div class="column-3">
+                <a href="#">
+                  <img src="data:image/png;base64,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" alt="">
+                </a>
+              </div>
+              <div class="column-9">
+                <a href="#">  
+                  <h3>Lorem ipsum dolor sit amet title</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, labore ut officiis</p>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="col-row pad-5 border mar-2">
+              <div class="column-3">
+                <a href="#">
+                  <img src="data:image/png;base64,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" alt="">
+                </a>
+              </div>
+              <div class="column-9">
+                <a href="#">  
+                  <h3>Lorem ipsum dolor sit amet title</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, labore ut officiis</p>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="col-row pad-5 border mar-2">
+              <div class="column-3">
+                <a href="#">
+                  <img src="data:image/png;base64,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" alt="">
+                </a>
+              </div>
+              <div class="column-9">
+                <a href="#">  
+                  <h3>Lorem ipsum dolor sit amet title</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, labore ut officiis</p>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="col-row pad-5 border mar-2">
+              <div class="column-3">
+                <a href="#">
+                  <img src="data:image/png;base64,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" alt="">
+                </a>
+              </div>
+              <div class="column-9">
+                <a href="#">  
+                  <h3>Lorem ipsum dolor sit amet title</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, labore ut officiis</p>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- marqueue post ends here -->
+        </div>
+      </div>
+      <div class="marquee" data-speed="medium">
+        <div class="marquee-container">
+          <!-- marqueue post starts here  -->
+          <div class="item">
+            <div class="col-row pad-5 border mar-2">
+              <div class="column-3">
+                <a href="#">
+                  <img src="data:image/png;base64,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" alt="">
+                </a>
+              </div>
+              <div class="column-9">
+                <a href="#">  
+                  <h3>Lorem ipsum dolor sit amet title</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, labore ut officiis</p>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="col-row pad-5 border mar-2">
+              <div class="column-3">
+                <a href="#">
+                  <img src="data:image/png;base64,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" alt="">
+                </a>
+              </div>
+              <div class="column-9">
+                <a href="#">  
+                  <h3>Lorem ipsum dolor sit amet title</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, labore ut officiis</p>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="col-row pad-5 border mar-2">
+              <div class="column-3">
+                <a href="#">
+                  <img src="data:image/png;base64,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" alt="">
+                </a>
+              </div>
+              <div class="column-9">
+                <a href="#">  
+                  <h3>Lorem ipsum dolor sit amet title</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, labore ut officiis</p>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- marqueue post ends here -->
+        </div>
+      </div>
+      <div class="marquee" data-speed="fast">
+        <div class="marquee-container">
+          <!-- marqueue post starts here  -->
+          <div class="item">
+            <div class="col-row pad-5 border mar-2">
+              <div class="column-3">
+                <a href="#">
+                  <img src="data:image/png;base64,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" alt="">
+                </a>
+              </div>
+              <div class="column-9">
+                <a href="#">  
+                  <h3>Lorem ipsum dolor sit amet title</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, labore ut officiis</p>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="col-row pad-5 border mar-2">
+              <div class="column-3">
+                <a href="#">
+                  <img src="data:image/png;base64,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" alt="">
+                </a>
+              </div>
+              <div class="column-9">
+                <a href="#">  
+                  <h3>Lorem ipsum dolor sit amet title</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, labore ut officiis</p>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="col-row pad-5 border mar-2">
+              <div class="column-3">
+                <a href="#">
+                  <img src="data:image/png;base64,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" alt="">
+                </a>
+              </div>
+              <div class="column-9">
+                <a href="#">  
+                  <h3>Lorem ipsum dolor sit amet title</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, labore ut officiis</p>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- marqueue post ends here -->
+        </div>
+      </div>
+    </div>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1VDDWMRSTH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-1VDDWMRSTH');
+</script>
+<script>
+try {
+  fetch(new Request("https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js", { method: 'HEAD', mode: 'no-cors' })).then(function(response) {
+    return true;
+  }).catch(function(e) {
+    var carbonScript = document.createElement("script");
+    carbonScript.src = "//cdn.carbonads.com/carbon.js?serve=CK7DKKQU&placement=wwwjqueryscriptnet";
+    carbonScript.id = "_carbonads_js";
+    document.getElementById("carbon-block").appendChild(carbonScript);
+  });
+} catch (error) {
+  console.log(error);
+}
+</script>
+  </body>
+</html>
