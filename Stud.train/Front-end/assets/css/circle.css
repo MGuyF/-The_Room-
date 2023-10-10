@@ -1,0 +1,37 @@
+.circle {
+    /* Layout here */
+    width: 40px;
+    height: 40px;
+    border: 2px solid rgb(192, 192, 192);
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* Decoration here*/
+    transition: box-shadow 0.5s;
+}
+
+.circle:hover{ 
+    box-shadow: 1px 1px 6px 2px rgb(146, 144, 5);
+}
+
+.circle2 {
+    /* Layout here */
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* Decoration here */
+    transition: all 0.5s;
+}
+
+.circle2:hover{ 
+    border: 1px solid rgb(109, 109, 109);
+}

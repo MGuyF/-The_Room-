@@ -1,0 +1,9 @@
+#contn-icon-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    width: 20px;
+    border: 1px solid;
+  }

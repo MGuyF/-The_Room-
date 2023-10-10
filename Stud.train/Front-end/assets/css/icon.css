@@ -1,0 +1,620 @@
+.icon {
+    /* Layout here */
+    color: #919191;
+    width: 13px;
+    height: 13px;
+    /* border: 1px solid; */
+
+    /* Decoration here */
+    transition: color ease-in-out 0.5s;
+}
+
+.h-box2 div:hover .icon {
+    color: black;
+}
+
+.box84.active .icon , .box84.active .icon2 , .box84.active .icon3 , .box84.active .icon4  {
+  color: black;
+}
+
+.box84.active .icon5 , .box84.active .icon6 , .box84.active .icon7 , .box84.active .icon8 {
+  color: #e7e700;
+} 
+
+.icon2 {
+    color: #919191;
+    width: 15.2px;
+    height: 15.2px;
+    /* border: 1px solid; */
+
+    /* Decoration here */
+    transition: color ease-in-out 0.5s;
+}
+
+.h-box2 div:hover .icon2 {
+    color: black;
+}
+
+.icon3 {
+    color: #919191;
+    width: 15.2px;
+    height: 15.2px;
+    /* border: 1px solid; */
+
+    /* Decoration here */
+    transition: color ease-in-out 0.5s;
+}
+
+.h-box2 div:hover .icon3 {
+    color: black;
+}
+
+.icon4 {
+    color: #919191;
+    width: 15.2px;
+    height: 15.2px;
+    /* border: 1px solid; */
+
+    /* Decoration here */
+    transition: color ease-in-out 0.5s;
+}
+
+.h-box2 div:hover .icon4 {
+    color: black;
+}
+
+.icon5 {
+    color: #919191;
+    width: 3px;
+    height: 3px;
+    /* border: 1px solid; */
+    
+    /* Decoration here */
+    transition: color ease-in-out 0.5s;
+}
+
+.h-box2 div:hover .icon5 {
+    color: #e7e700;
+}
+
+.icon6 {
+    color: #919191;
+    width: 3px;
+    height: 3px;
+    /* border: 1px solid; */
+    
+    /* Decoration here */
+    transition: color ease-in-out 0.5s;
+}
+
+.h-box2 div:hover .icon6 {
+    color: #e7e700;
+}
+
+
+.icon7 {
+    color: #919191;
+    width: 3px;
+    height: 3px;
+    /* border: 1px solid; */
+    
+    /* Decoration here */
+    transition: color ease-in-out 0.5s;
+}
+
+.h-box2 div:hover .icon7 {
+    color: #e7e700;
+}
+
+
+.icon8 {
+    color: #919191;
+    width: 3px;
+    height: 3px;
+    /* border: 1px solid; */
+    
+    /* Decoration here */
+    transition: color ease-in-out 0.5s;
+}
+
+.h-box2 div:hover .icon8 {
+    color: #e7e700;
+}
+
+
+.icon9 {
+    /* Layout here */
+    width: 16px;
+    height: 16px;
+
+    /* Decoration here */
+    transition: color ease-in-out 0.5s;
+}
+
+.button-container div:hover .icon9 {
+    color: #f5f57b;
+}
+
+.icon10 {
+    /* Layout here */
+    width: 16px;
+    height: 16px;
+
+    /* Decoration here */
+    transition: color ease-in-out 0.5s;
+}
+
+.button-container div:hover .icon10 {
+    color: #f5f57b;
+}
+
+.icon11 {
+    transition: background-color ease-in-out  0.27s, transform ease-out 0.5s,color ease-in-out 1s ;
+}
+
+.button-container2 div:hover .icon11 {
+    color: #f5f57b;
+}
+
+.button-container3 div:hover .icon11 {
+    color: #f5f57b;
+}
+
+.icon12 {
+    width: 170px;
+    height: 170px;
+    color: rgb(17, 212, 147);
+}
+
+.icon13 {
+    transition: background-color ease-in-out  0.27s, transform ease-out 0.5s,color ease-in-out 1s ;
+}
+
+.button-container4 div:hover .icon13 {
+    color: #f5f57b;
+}
+
+
+.button-container5 div:hover .icon13 {
+    color: #f5f57b;
+}
+
+.icon14 {
+    width: 24px;
+    height: 24px;
+    color: white;
+    /* color: white; */
+}
+
+.icon15 {
+    width: 20px;
+    height: 20px;
+    margin-left: 6px;
+}
+
+.icon16 {
+    color: black;
+    width: 15.2px;
+    height: 15.2px;
+}
+
+.icon17 {
+    color:#919191;
+    width: 25px;
+    height: 25px;
+    transition: color 0.5s ease-in-out;
+}
+
+.box75:hover .icon17 {
+    color: #919191;
+}
+
+.icon18 {
+    color: #9c9c9c;
+    width: 20px;
+    height: 20px;
+}
+
+.icon19 {
+  color: rgb(17, 212, 147);
+}
+
+.icon20 {
+  width: 20px;
+  height: 20px;
+  color:#9c9c9c;
+  transition: color 0.5s ease-in-out;
+}
+
+.icon20:hover {
+  color:#919191;
+}
+
+.icon21 {
+  font-size: 35px !important;
+  color: white;
+  transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.box122:hover .icon21 {
+  color: #ffffdc;
+  transform: scale(1.058);
+}
+
+.icon22 {
+  color: white;
+  font-size: 15px;
+  /* border: 1px solid; */
+}
+
+.icon23 {
+  color: white;
+  font-size: 18px;
+}
+
+.icon24 {
+  color: #ffffdc;
+  font-size: 17px;
+}
+
+.icon25 {
+  font-size: 15px;
+  color: #919191;
+  /* border: 1px solid; */
+}
+
+.icon26 {
+  font-size: 17px !important;
+  cursor: pointer;
+}
+
+.icon27 {
+  color: #ffffdc;
+  font-size: 165px;
+}
+
+.icon27_2 {
+  color: #ffffdc;
+  font-size: 35px;
+}
+
+.icon28 {
+  color: #ffffdc;
+  font-size: 34px;
+  position: relative;
+  left: 15px;
+  top: 5px;
+  /* border: 1px solid; */
+}
+
+.icon29 {
+  color: #ffffdc;
+  font-size: 15px;
+  position: relative;
+  /* left: 15px; */
+  top: 5px;
+  /* border: 1px solid; */
+  cursor: pointer;
+}
+
+.icon30 {
+  color: rgb(255, 106, 106);
+  font-size: 34px;
+  position: relative;
+  left: 15px;
+  top: 5px;
+  /* border: 1px solid; */
+}
+
+.icon30_2 {
+  display: flex;
+  color: rgb(255, 106, 106);
+  font-size: 34px;
+  /* transform: translateY(-90px);  */
+  /* border: 1px solid; */
+}
+
+.icon31 {
+  color: rgb(101, 255, 101);
+  font-size: 34px;
+  position: relative;
+  left: 15px;
+  top: 5px;
+  /* border: 1px solid; */
+}
+
+.icon32 {
+  color: #000000;
+  font-size: 15px;
+  position: relative;
+  /* left: 15px; */
+  top: 5px;
+  /* border: 1px solid; */
+  cursor: pointer;
+}
+
+.icon33 {
+  color: #ffffdc;
+  font-size: 28px;
+}
+
+.icon34 {
+  font-size: 1.3rem !important;
+  color: white;
+  transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.icon35 {
+  font-size: 1.1rem !important;
+  color: white;
+  transition: color 0.5s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.icon35_2 {
+  font-size: 1.35rem !important;
+  color: white;
+  transition: color 0.5s ease-in-out, transform 0.3s ease-in-out;
+}
+
+
+.box122:hover .icon36 {
+  color: #ffffdc;
+  transform: scale(1.058);
+}
+
+.icon36 {
+  font-size: 1.4rem !important;
+  color: white;
+  transition: all 0.5s ease-in-out;
+}
+
+.box122_2:hover .icon36 {
+  transform: scale(1.09);
+}
+
+.box122_2.active .icon36 , .box122_2.active .icon39 , .box122_2.active .icon40    {
+  transform: scale(1.09); 
+}
+
+
+.icon36_2 {
+  font-size: 1.4rem !important;
+  color: white;
+  transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.icon37 {
+  font-size: 1.1rem !important;
+  color: white;
+  transition: color 0.5s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.icon38 {
+  font-size: 0.8rem !important;
+  color: white;
+  transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.icon39 {
+  font-size: 1.6rem !important;
+  color: white;
+  transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.box122_2:hover .icon39 {
+  transform: scale(1.08);
+}
+
+.icon40 {
+  font-size: 1.52rem !important;
+  color: white;
+  transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.icon41 {
+  font-size: 5rem !important;
+  color: rgb(184,184,184);
+}
+
+.icon42 {
+  font-size: 3.4rem !important;
+  color: rgb(184,184,184);
+}
+
+.icon43 {
+  font-size: 0.6rem !important;
+  color: rgb(184,184,184);
+}
+
+.icon44 {
+  font-size: 1rem !important;
+  color: white;
+  position: relative;
+  left: 0.6vw;
+  transition: color ease-in-out 0.5s;
+}
+
+.icon45 {
+  font-size: 1rem !important;
+  color: white;
+  position: relative;
+  /* left: 0.6vw;
+  transition: color ease-in-out 0.5s; */
+}
+
+.icon46 {
+  font-size: 1rem !important;
+  color: white;
+  position: relative;
+  /* left: 0.6vw;
+  transition: color ease-in-out 0.5s; */
+}
+
+.icon47 {
+  font-size: 0.78rem !important;
+  color: white;
+  position: relative;
+  /* left: 0.6vw;
+  transition: color ease-in-out 0.5s; */
+}
+
+.icon48 {
+  font-size: 0.9rem !important;
+  color: #ffffff;
+  position: relative;
+  /* border: 1px solid white; */
+  margin: 0;
+  padding: 0;
+  /* left: 0.6vw;
+  transition: color ease-in-out 0.5s; */
+}
+
+.icon49 {
+  font-size: 0.7rem !important;
+  color: #464646;
+  position: relative;
+  /* border: 1px solid white; */
+  margin: 0;
+  padding: 0;
+  /* left: 0.6vw;
+  transition: color ease-in-out 0.5s; */
+}
+
+.icon50 {
+  font-size: 0.9rem !important;
+  color: rgb(184,184,184);
+  position: relative;
+  /* border: 1px solid white; */
+  margin: 0;
+  padding: 0;
+  /* left: 0.6vw;
+  transition: color ease-in-out 0.5s; */
+}
+
+.icon51 {
+  font-size: 0.7rem !important;
+  color: rgb(184,184,184);
+  position: relative;
+  /* border: 1px solid white; */
+  margin: 0;
+  padding: 0;
+  /* left: 0.6vw;
+  transition: color ease-in-out 0.5s; */
+}
+
+.icon52 {
+  font-size: 14rem !important;
+  color: rgb(184,184,184);
+  position: relative;
+  /* border: 1px solid white; */
+  margin: 0 !important;
+  padding: 0 !important;
+  /* left: 0.6vw;
+  transition: color ease-in-out 0.5s; */
+}
+
+.icon53 {
+  font-size: 0.75rem !important;
+  color: rgb(184,184,184);
+  position: relative;
+  /* border: 1px solid white; */
+  margin: 0;
+  padding: 0;
+  /* left: 0.6vw;
+  transition: color ease-in-out 0.5s; */
+}
+
+.icon54 {
+  font-size: 0.9rem !important;
+  color: rgb(44, 44, 44);
+  position: relative;
+  /* border: 1px solid white; */
+  margin: 0;
+  padding: 0;
+  /* left: 0.6vw;
+  transition: color ease-in-out 0.5s; */
+}
+
+.icon55 {
+  font-size: 1rem !important;
+  color: rgb(255, 255, 255);
+  position: relative;
+  /* border: 1px solid white; */
+  margin: 0;
+  padding: 0;
+  /* left: 0.6vw;
+  transition: color ease-in-out 0.5s; */
+}
+
+.icon56 {
+  font-size: 7rem !important;
+  color: rgb(216, 216, 216);
+  position: relative;
+  /* border: 1px solid white; */
+  margin: 0;
+  padding: 0;
+  /* left: 0.6vw;
+  transition: color ease-in-out 0.5s; */
+}
+
+.icon57 {
+  font-size: 1rem !important;
+  color: rgb(255, 255, 255);
+  position: relative;
+  /* border: 1px solid white; */
+  margin: 0;
+  padding: 0;
+  /* left: 0.6vw;
+  transition: color ease-in-out 0.5s; */
+}
+
+.icon58 {
+  font-size: 1rem !important;
+  color: rgb(255, 255, 255);
+  position: relative;
+  /* border: 1px solid white; */
+  margin: 0;
+  padding: 0;
+  /* left: 0.6vw;
+  transition: color ease-in-out 0.5s; */
+}
+
+.icon59 {
+  font-size: 1rem !important;
+  color: red;
+  position: relative;
+  /* border: 1px solid white; */
+  margin: 0;
+  padding: 0;
+  /* left: 0.6vw;
+  transition: color ease-in-out 0.5s; */
+}
+
+.icon60 {
+  font-size: 1rem !important;
+  color: rgb(255, 255, 255);
+  position: relative;
+  /* border: 1px solid white; */
+  margin: 0;
+  padding: 0;
+  /* left: 0.6vw;
+  transition: color ease-in-out 0.5s; */
+}
+
+
+.button6:hover .icon44 {
+  color: #242424;
+}
+
+.box122_2:hover .icon40 {
+  transform: scale(1.08);
+}
+
+.icon34:hover , .icon35:hover , .icon35_2:hover , .icon37:hover {
+  color: #ffffca;
+}
+
+.icon34.active , .icon35.active , .icon37.active{
+  color: #ffffca;
+}

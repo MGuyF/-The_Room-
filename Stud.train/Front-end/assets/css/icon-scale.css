@@ -1,0 +1,32 @@
+.icon-scale {
+    /* Layout here */
+    width: fit-content;
+    overflow: hidden;
+    padding: 5px;
+
+    /* Decoration here */
+    transition: all ease-in-out 0.78s;
+    border: 1px solid rgb(235,235,235);
+    border-radius: 5px;
+}
+
+.border-content4:hover .icon-scale  {
+    box-shadow:
+    inset 0 0.3px   rgb(180, 180, 180),
+    inset 0.3px 0   rgb(180, 180, 180),
+    inset -0.3px 0   rgb(180, 180, 180),
+    inset 0 -0.3px   rgb(180, 180, 180),
+    
+    
+
+     inset 0 0.6px 1px   rgb(120, 120, 120),inset 0 1px 1px rgb(126, 126, 126),
+     inset 0 1.4px 1px rgb(132, 132, 132),inset 0 1.8px 1px rgb(138, 138, 138),
+     inset 0 2.2px 1px rgb(144, 144, 144),inset 0 2.6px 1px rgb(150, 150, 150),
+     inset 0 3px 1px rgb(156, 156, 156) , inset 0 3.2px 1px rgb(156, 156, 156) ,
+     inset 0 3.6px 1px rgb(156, 156, 156) , inset 0 4px 1px rgb(156, 156, 156) ,
+     inset 0 4.4px 2px rgb(156, 156, 156) ,
+     inset 0 4.8px 2px rgb(156, 156, 156)
+     ; 
+     border-radius: 5px;
+     background-color: rgb(250, 250, 250);
+}

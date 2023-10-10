@@ -1,0 +1,29 @@
+/* link-text style */
+.link-text {
+    overflow: hidden;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    width: fit-content;
+}
+/* --------------------------------------- */
+
+/* link */
+.link {
+    /* Layout here */
+    width: fit-content;
+
+    /* Decoration */
+    border: 1px solid rgb(231, 231, 0);
+    border-radius: 5px 2px;
+    overflow: hidden;
+    background-color: white;
+}
+/* ---------------------------------------- */
+
+/* link-ftr */
+.link-ftr {
+    width: fit-content;
+}
+/* ----------------------------------------- */

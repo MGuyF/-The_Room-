@@ -1,0 +1,25 @@
+.icon-shaddow{
+    /* Layout here */
+    padding: 8px;
+    width: fit-content;
+
+    /* Decoration here */
+    transition: all 1s;
+    border: 1px solid rgb(230, 230, 230);
+}
+
+.icon-shaddow2 {
+    border: 1px solid rgb(230, 230, 230);
+}
+
+.icon-shaddow3{
+    /* Layout here */
+    padding: 6px;
+
+    /* Decoration here */
+    border: 1px solid rgb(230, 230, 230);
+}
+
+.border-content3:hover .icon-shaddow {
+    border: 1px solid rgb(187, 187, 187);
+}

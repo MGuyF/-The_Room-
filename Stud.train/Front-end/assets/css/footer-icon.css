@@ -1,0 +1,5 @@
+.box1 > ul  li  .footer-icon {
+    display: flex;
+    justify-content: start;
+    /* border: 1px solid; */
+}

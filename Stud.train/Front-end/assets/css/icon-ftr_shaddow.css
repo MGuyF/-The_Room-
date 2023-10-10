@@ -1,0 +1,28 @@
+.icon-ftr-shaddow {
+    padding: 10px;
+    border: 1px solid rgb(199, 199, 199);
+    border-radius: 5px;
+    transition: all ease-in-out 0.4s;
+    background-color: rgb(238, 238, 238);
+}
+
+.icon-ftr-shaddow:hover {
+    /* border: 1px solid rgb(208, 208, 208); */
+    box-shadow: 0 0 0.09px 0.09px rgb(15, 15, 15);
+    color: black;
+    background-color: rgb(248, 248, 233);
+    transform: scale(1.05);
+}
+
+.icon-ftr-shaddow-2 {
+    transition: all 0.5s;
+    border: 1px solid yellow;
+    display: flex;
+    justify-content: center;
+}
+
+.icon-ftr-shaddow-2:hover {
+    border-radius: 5px;
+    box-shadow: 1px 2px 7px 3px rgb(0, 44, 109);
+    transform: scale(1.1);
+}

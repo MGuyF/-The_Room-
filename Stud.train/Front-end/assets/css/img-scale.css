@@ -1,0 +1,38 @@
+#img-scale  {
+    /* Layout here */
+    width: 185px;
+    height: 70px;
+    /* margin-right: 120px; */
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+}
+
+#img-scale img {
+    width: 100%;
+   
+    
+}
+
+.img-scale {
+    /* Layout here */
+    overflow: hidden;
+    border-radius: 8px;
+    padding: 2px;
+
+    /* Decoration here */
+    border: 2px solid rgb(209, 209, 209); 
+    transition: box-shadow ease-in-out 0.5s;
+}
+
+/* #img-scale:hover { 
+    box-shadow: 1px 1px 6px 2px rgb(146, 144, 5);
+} */
+
+/* .img-scale {
+    
+    /* box-shadow: 0 0 2px 1px rgba(99, 99, 72, 0.603),
+    0 0 8px 1.5px rgba(139, 138, 52, 0.877); 
+} */

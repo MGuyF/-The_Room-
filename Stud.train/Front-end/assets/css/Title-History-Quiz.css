@@ -1,0 +1,13 @@
+#Title-History-Quiz {
+    /* Layout here */
+    display: flex;
+    border:1px solid gray;
+    margin: 0;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding: 0;
+    height: fit-content;
+
+    /* Decoration here */
+    list-style-type: none;
+}

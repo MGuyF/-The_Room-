@@ -1,0 +1,60 @@
+.sm-text-shaddow-ftr {
+    transition: all ease-in-out 0.5s;
+    text-shadow: 0.9px 0.9px 2.5px rgb(75, 75, 75);
+    width: 200px;
+    line-height: 18px;
+    font-size: 22.4px;
+    position: relative;
+    /* text-align: center; */
+    /* border: 1px solid; */
+    word-spacing: 150px;
+    top: -3px;
+    letter-spacing: 1.8px;
+    overflow: hidden;
+}
+
+.box2-hover-elt-trigg:hover ~ .sm-text-shaddow-ftr{
+    text-shadow: 0.5px 0.5px 1.4px rgb(65, 65, 65),
+     1.2px 1.2px  rgb(167, 167, 167),
+     1.9px 1.9px  rgb(177, 177, 177) , 2.6px 2.6px  rgb(187, 187, 187),
+     2.3px 2.3px  rgb(197, 197, 197) , 4.0px 4.0px   rgb(207, 207, 207),
+     4.7px 4.7px  rgb(217, 217, 217) , 5.4px 5.4px   rgb(227, 227, 227);
+     transform: scale(1.012);
+    color: rgb(40, 40, 40);
+}
+
+.sm-text-shaddow-ftr2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    height: 20px;
+    position: relative;
+    right: 14px;
+    overflow: hidden;
+    /* border: 1px solid; */
+}
+
+.sm-text-shaddow-ftr3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid; */
+    height: 30px;
+    transition: all ease-in-out 0.5s;
+    text-shadow: 0.9px 0.9px 2.5px rgb(75, 75, 75);
+    letter-spacing: 5px;
+    position: relative;
+    top: 20px;
+    overflow: hidden;
+}
+
+.box3-hover-elt-trigg:hover ~ .sm-text-shaddow-ftr3{
+    text-shadow: 0.5px 0.5px 1.4px rgb(65, 65, 65),
+     1.2px 1.2px  rgb(167, 167, 167),
+     1.9px 1.9px  rgb(177, 177, 177) , 2.6px 2.6px  rgb(187, 187, 187),
+     2.3px 2.3px  rgb(197, 197, 197) , 4.0px 4.0px   rgb(207, 207, 207),
+     4.7px 4.7px  rgb(217, 217, 217) , 5.4px 5.4px   rgb(227, 227, 227);
+     transform: scale(1.012);
+    color: rgb(40, 40, 40);
+}

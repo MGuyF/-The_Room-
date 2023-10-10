@@ -1,0 +1,42 @@
+.btn-prev {
+    /* Layout here */
+    border-right: 1px solid rgb(204, 204, 204);
+    border-top: 1px solid rgb(204, 204, 204);
+    border-bottom: 1px solid rgb(204, 204, 204);
+    width: 12px;
+    height: 12px;
+    /* Decoration here */
+    transition: all ease-in-out 1s;
+}
+
+.btn-prev:hover {
+    border-right: 1px solid rgb(219, 219, 26);
+    border-top: 1px solid rgb(219, 219, 26);
+    border-bottom: 1px solid rgb(219, 219, 26);
+}
+
+.btn-next {
+    /* Layout here */
+    border-left: 1px solid rgb(204, 204, 204);
+    border-top: 1px solid rgb(204, 204, 204);
+    border-bottom: 1px solid rgb(204, 204, 204);
+    width: 12px;
+    height: 12px;
+
+    /* Decoration here */
+    transition: all ease-in-out 1s;
+}
+
+.btn-next:hover {
+    border-left: 1px solid rgb(219, 219, 26);
+    border-top: 1px solid rgb(219, 219, 26);
+    border-bottom: 1px solid rgb(219, 219, 26);
+}
+
+/* ----------------------------------------------------- */
+
+/* The btn style */
+#container > #Connexion-box2 > form > #btn{
+    grid-column:1;
+    grid-row: 3;    
+}

@@ -1,0 +1,31 @@
+.contn-icon-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+/* ---------------------------------- */
+
+/* The sub-contn-icon-main */
+  .sub-contn-icon-main {
+    max-width: 150px;
+    max-height:150px;
+    min-width: 100px;
+    min-height:100px; 
+    overflow: hidden;
+    display: flex; 
+    justify-content: center;
+  }
+
+  /* .contn-icon-main:hover { 
+    transform: scale(1.1);
+  }*/
+  
+  .sub2-contn-icon-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+
+  }

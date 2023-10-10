@@ -1,0 +1,13 @@
+.sm-text-shaddow {
+    transition: all ease-in-out 0.5s;
+    text-shadow: 1px 1px 1.9px rgb(75, 75, 75);
+}
+.border-content2:hover .sm-text-shaddow,.border-content4:hover .sm-text-shaddow,.border-content5:hover .sm-text-shaddow{
+    text-shadow: 1px 1px 1.9px rgb(65, 65, 65),
+     1.7px 1.7px  rgb(167, 167, 167),
+     2.4px 2.4px  rgb(177, 177, 177) , 3.1px 3.1px  rgb(187, 187, 187),
+     3.8px 3.8px  rgb(197, 197, 197) , 4.5px 4.5px   rgb(207, 207, 207),
+     5.2px 5.2px  rgb(217, 217, 217) , 5.9px 5.9px   rgb(227, 227, 227);
+     transform: scale(1.012);
+    color: rgb(40, 40, 40);
+}

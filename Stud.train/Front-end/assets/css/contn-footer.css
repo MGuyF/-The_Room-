@@ -1,0 +1,30 @@
+.contn-footer {
+    /* Layout here */
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid; */
+
+    /* Decoration */
+    transition: all ease-in-out 0.4s;
+}
+
+.contn-footer:hover {
+    /* border-radius: 2px; */
+    box-shadow:
+    0 0 7px 1px rgb(226, 225, 60),
+    0 0 13px 2px rgb(226, 225, 74),
+    0 0 55px 3px rgb(245, 245, 196),
+    0 0 17px 4px rgb(226, 225, 158),
+    0 0 30px 6px rgb(228, 228, 122),
+    0 0 35px 8px rgb(228, 228, 190),
+    0 0 40px 14px rgb(238, 237, 203),
+    0 0 50px 16px rgb(204, 204, 196),
+    0 0 60px 18px rgb(255, 255, 230); 
+     /* 7px 10px 30px 22px rgb(230, 227, 97);  */
+    transform: scale(1.05);
+}
+
+.contn-footer-2:hover {
+    border-radius: 2px;
+    box-shadow: 7px 10px 30px 22px rgb(66, 81, 212);
+}

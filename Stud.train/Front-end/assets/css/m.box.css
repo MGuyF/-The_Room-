@@ -1,0 +1,49 @@
+.container > .m-box1 {
+    /* Layout here */
+    grid-column: 1;
+    grid-row: 1;
+    padding-top: 30px;
+    /* border: 1px solid rgb(209, 209, 209); */
+
+    /* Decoration here */
+    background-color: rgb(255, 255, 199);
+}
+
+.container > .m-box2 {
+    grid-column: 1/8;
+    grid-row: 2;
+    margin-top: 80px;
+}
+
+.container > .m-box3 {
+    grid-column: 1/8;
+    grid-row: 3;
+    text-align: center;
+    margin-top: 100px ;
+    
+}
+
+.container > .m-box4 {
+    grid-column: 1/7;
+    grid-row: 4;
+    margin-top: 80px;
+    margin-left: 4px;
+    /* background-color: aqua; */
+}
+
+.container > .m-box5  {
+    grid-column: 3/8;
+    grid-row: 5;
+    margin-top: 160px;
+    /* background-color: aqua; */
+}
+
+.container > .m-box6 {
+    grid-column: 1/8;
+    grid-row: 6;
+    text-align: center;
+    /*background-color: rgb(230, 230, 230);
+    border-radius: 5px;*/
+    margin-top: 250px;
+    /*border: 1px solid rgb(240, 240, 140);*/
+}

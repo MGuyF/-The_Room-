@@ -1,0 +1,1676 @@
+/* Html style */
+html {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+}
+
+/* The body style */
+body {
+    margin: 0;
+    padding: 0;
+}
+/* ------------------------------------ */
+
+/* The header element */
+header {
+    /* Layout here */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* padding: 35px; */
+    justify-content: center;
+    margin: 0;
+    padding-top: 17.5px;
+    padding-bottom: 17.5px;
+    /* padding-right: 20px; */
+    /* padding-left: 10px; */
+    border-bottom: 1px solid rgb(190, 190, 190);
+    position: fixed;
+    width: 100%;
+    height: 115px;
+    z-index: 4;
+    /* opacity: 0.5; */
+
+    /* Decoration here */
+    /* background-color: rgba(255, 255, 255, 0.692); */
+    font-size: 17px;
+    box-shadow: 0 -1.5px 5px rgb(92, 92, 92);
+    /* backdrop-filter: blur(5px); */
+}
+/* header div {
+    border: 1px solid gray;
+} */
+
+/* ------------------------------------- */
+
+/* The main style */
+main {
+    padding-bottom: 60px;
+    /* z-index: -2; */
+    height: 100%;
+    /* border: 1px solid; */
+}
+
+/* ------------------------------------- */
+/* The footer style */
+footer {
+    /* Layout here */
+    margin-top: 80px;
+    padding-top: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+    /* border: 1px solid; */
+    position: relative;
+    z-index: 1;
+
+    /* Decoration here */
+}
+
+/* The h1 style */
+/* main > .container > div >  .m-box1 > #article1 > #section2 > #m-art1-sect2 > h1 {
+    /* margin-top: 23px; */
+    /* position: relative;
+    bottom: 40px;
+    left: 54px; */
+    /* width: fit-content;
+    display: flex; 
+} */
+
+.h1-style h1 {
+    /* Layout here */
+    text-align: center;
+    word-spacing: 276px;
+    font-size: 3em;
+    font-weight:900;
+
+    /* Decoration here */
+}
+
+.h1-style-2 h1 {
+    /* Layout here */
+    text-align: center;
+    /* word-spacing: 276px; */
+    font-size: 37.4px;
+    font-weight:900;
+
+    /* Decoration here */
+}
+
+.h1-style-3 h1 {
+    /* Layout here */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 6.2em;
+    font-weight:900;
+    height: fit-content;
+    letter-spacing: 6px;
+
+    /* Decoration here */
+    color: black;
+}
+
+.h1-style-4 h1 {
+    /* Layout here */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 3.8em;
+    font-weight:900;
+    height: fit-content;
+    /* text-transform: uppercase; */
+    /* letter-spacing: 6px; */
+
+    /* Decoration here */
+    color: black;
+}
+
+.h1-style-5 h1 {
+    /* Layout here */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 2.7em;
+    font-weight:900;
+    height: fit-content;
+    /* text-transform: uppercase; */
+    /* letter-spacing: 6px; */
+
+    /* Decoration here */
+    color: #808080;
+}
+
+.h1-style-6 h1 {
+    /* Layout here */
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-size: 4.6rem;
+    font-weight:900;
+    /* border: 1px solid; */
+    /* text-transform: uppercase; */
+    /* letter-spacing: 6px; */
+
+    /* Decoration here */
+    color: white;
+}
+
+.h1-style-7 h1 {
+    /* Layout here */
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-size: 3.3rem;
+    font-weight:900;
+    /* border: 1px solid; */
+    /* text-transform: uppercase; */
+    /* letter-spacing: 6px; */
+
+    /* Decoration here */
+    color: white;
+}
+
+.h1-style-8 h1 {
+    /* Layout here */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 2.1rem;
+    font-weight:900;
+    /* border: 1px solid; */
+    /* text-transform: uppercase; */
+    /* letter-spacing: 6px; */
+
+    /* Decoration here */
+    color: white;
+}
+
+.h1-style-9 h1 {
+    /* Layout here */
+    display: flex;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    font-size: 2.1rem;
+    font-weight:900;
+    width: 9vw;
+    height: 50%;
+    line-height: 7vh;
+    /* white-space: pre-line; */
+    /* border: 1px solid; */
+    /* text-transform: uppercase; */
+    /* letter-spacing: 6px; */
+
+    /* Decoration here */
+    color: white;
+}
+/* ------------------------------------- */
+
+/* The h2 style */
+
+.h2-style-2 h2 {
+    /* Layout here */
+    margin: 0;
+    text-align: right;
+    font-size: 4.4em;
+    font-weight:900;
+    height: fit-content;
+    letter-spacing: 3.7px;
+
+    /* Decoration here */
+    color: black;
+}
+
+.h2-style-3 h2{
+    /* Layout here */
+    font-size: 12px;
+    text-transform: capitalize;
+    margin: 0;
+    letter-spacing: 3px;
+
+
+    /* Decoration here */
+    color: #dada70;
+}
+
+.h2-style-5 h2{
+    /* Layout here */
+    font-size: 19px;
+    font-weight: 900;
+    margin: 0;
+    letter-spacing: 2;
+    color: #919191;
+}
+
+.h2-style-6 h2 {
+    color: #808080;
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+.h2-style-7 h2 {
+    color: #808080;
+    margin: 0;
+    /* line-height: 26px; */
+    font-size: 2em;
+    /* border: 1px solid; */
+}
+
+.h2-style-8 h2 {
+    color:#9c9c9c;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 1px;
+    /* line-height: 26px; */
+    /* font-size: 2em; */
+    /* border: 1px solid; */
+    transition: color 0.5s ease-in-out;
+}
+
+.h2-style-9 h2 {
+    color:#9c9c9c;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 1px;
+    text-align: center;
+    /* line-height: 26px; */
+    /* font-size: 2em; */
+    /* border: 1px solid; */
+}
+
+.box75:hover .h2-style-8 h2 {
+    color: #919191;
+} 
+
+/* h2{
+    width: fit-content;
+} */
+
+/* main > .container > div > .m-box1 > #article1 > #section2 > h2 {
+    text-align: center;
+    position: relative;
+    left: 250px;
+} */
+
+/* main > .container > div > .m-box1 > #article1 > #section2 > h2 {
+    display: flex;
+    width: fit-content;   
+} */
+/* ------------------------------------- */
+
+/* The h3 element */
+.h3-style h3 {
+    /* Layout here */
+    text-align: center;
+    font-size: 12px;
+    font-weight: 100;
+    letter-spacing: 1.6px;
+    /* border: 1px solid; */
+    margin: 0;
+
+    /* Decoration here */
+    color: black;
+}
+
+.h3-style-2 h3 {
+    /* Layout here */
+    text-align: center;
+    font-size: 12px;
+    /* font-weight: 700; */
+    letter-spacing: 1.2px;
+    /* border: 1px solid; */
+    margin: 0;
+
+    /* Decoration here */
+    color: #6d6d6d;
+}
+
+.box3 h3 {
+    /*  */
+    width: fit-content;
+}
+
+.box3  h3  {
+    text-align: center;
+    font-size: 17px;
+}
+
+.box2 > h3 {
+    text-align: center;
+    font-size: 17px;
+}
+
+.sm-text-shaddow-ftr3 p {
+    transition: all ease-in-out 0.5s;
+    text-shadow: 0.9px 0.9px 2.5px rgb(75, 75, 75);
+    letter-spacing: 5px;
+    position: relative;
+    top: 30px;
+    margin: 0;
+}
+
+/* -------------------------------------- */
+
+/* The img style */
+#section1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.box02 img {
+    width: 100%;
+}
+
+.box01 img {
+    width: 100%;
+}
+
+.box03 img {
+    width: 100%;
+}
+
+.box04 img {
+    width: 100%;
+}
+
+.box05 img {
+    width: 100%;
+}
+
+.box8 img {
+    width: 100%;
+}
+/* main > .container >  div > .m-box1 > #article1 > #section1 > figure > img {
+    border-radius: 5px;
+} */
+
+#contn-icon-title img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.sub-contn-phto-prfl img {
+  
+    width: 100%;
+}
+
+.sub2-contn-icon-main img {
+    width: 100%;
+}
+
+.icon-scale img {
+    overflow: hidden;
+}
+
+.img-scale img {
+    /* Layout here */
+    border-radius: 4px;
+
+    /* Decoration here */
+    transition: transform 1s;
+}
+
+.icon-scale img {
+    transition: all ease-in-out 1s;
+}
+
+.img-scale:hover img {
+    transform: scale(1.08);
+}
+
+.image-container-3 img {
+    max-width: 100%;
+    /* max-height: 100%; */
+}
+
+.image-container-5 img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.image-container-6 img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.image-container-7 img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.image-container-8 img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.image-container-9 img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.image-container-10 img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.image-container-11 img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.image-container-14 img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.image-container-15 img {
+    transform: scale(0.76);
+}
+
+.image-container-16 img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.image-container-17 img {
+   width: 100%;
+}
+
+.image-container-18 img {
+    width: 100%;
+ }
+
+/* #img-scale img {
+    transition: transform 1s;
+    border: 1px solid rgb(202, 200, 63);
+    border-radius: 5px;
+    
+} */
+
+/* #img-scale:hover img {
+    transform: scale(1.2);
+} */
+
+/* #image-container img {
+    max-width: 100%;
+    max-height: 100%;
+} */
+
+/* #image-container2 img {
+    max-width: 100%;
+    max-height: 100%;
+} */
+
+
+.border-content4:hover .icon-scale img {
+    transform: scale(0.98);
+}
+
+/* -------------------------------------- */
+
+/*The p element*/
+.h-box2 a p {
+    margin: 0;
+    color: #919191;
+    transition: color 1.5s;
+}
+
+.h-box2 a:hover p {
+    color: black;
+}
+
+.box84.active p {
+    color: black;
+}
+
+.box7 p{
+    border: 1px solid;
+}
+.container4 p{
+    position: relative;
+    left: 12px;
+}
+
+.container2 p{
+    position: relative;
+    left: 5px;
+    margin-top: 10px;
+    margin-bottom: 2px; 
+}
+
+.container5 p{
+    /* Layout here */
+    position: relative;
+    left: 9px; 
+
+    /* Decoration here */
+    color: rgb(32, 32, 32);
+    transition: all 0.6s;
+    transform: scale(0.69);
+  }
+/* main > .container > div > .m-box1 > #article1 > #section2 > #m-art1-sect2 > h1 + p {
+    margin-top: 32px;
+    position: relative;
+    bottom: 40px;
+} */
+
+.container > .m-box3 > article > p{
+    padding: 0px 50px 0px 50px;
+    
+}
+.container2:hover p {
+    transform: scale(0.50);
+}
+
+.container2 > p ,
+  .container1 > p,.container3 > p , .container4 > p , .container5 > p
+  {
+    color: rgb(32, 32, 32);
+    transition: all 0.6s;
+    transform: scale(0.69);
+    font-family: calibri;
+    letter-spacing: 3px;
+    font-size: 8px;
+    font-weight: bold; 
+  }
+
+  .container1:hover p {
+    transform: scale(0.50);
+  }
+
+  .container3:hover p {
+    transform: scale(0.50);
+  }
+
+  .container4:hover p {
+    transform: scale(0.50);
+  }
+
+  .container4 p{
+    color: rgb(32, 32, 32);
+    transition: all 0.6s;
+    transform: scale(0.69); 
+  }
+
+  .container5:hover p {
+    transform: scale(0.50);
+  }
+
+  /* main > .container > div > .m-box1 > #article1 > #section2 > #m-art1-sect2 > h1 + p {
+    font-size: 19px;
+    line-height: 20px;   
+} */
+
+main > .container > .m-box5 > article > section > div p{
+    text-align: left;    
+}
+
+.box1 > ul  li  p {
+    font-size: 13px;
+    text-align: justify;
+}
+
+.paragraph-style p {
+    /* Layout here */
+    text-align: justify;
+
+    /* Decoration here */
+    color: rgb(99, 99, 99);
+}
+
+.paragraph-style-2 p {
+    /* Layout here */
+    text-align: justify;
+
+    /* Decoration here */
+    color: rgb(99, 99, 99);
+}
+
+.paragraph-style-3 p {
+    /* Layout here */
+    text-align: justify;
+    line-height: 23.5px;
+    word-spacing: 2.6px;
+
+    /* Decoration here */
+    color: rgb(99, 99, 99);
+}
+
+.paragraph-style-4 p {
+    /* Layout here */
+    font-size: 13px;
+    margin: 0;
+    font-weight: 800;
+}
+
+.paragraph-style-5 p {
+    /* Layout here */
+    font-size: 11px;
+    margin: 0;
+    /* border: 1px solid white; */
+
+    /* Decoration here */
+    color: #ffffff;
+}
+
+.paragraph-style-6 p {
+    /* Layout here */
+    font-size: 10px;
+    margin: 0;
+    text-align: center;
+    letter-spacing: 1.5px;
+    font-weight:100;
+    /* background-color: #dada70; */
+
+
+    /* Decoration here */
+    color: rgb(210, 210, 210);
+}
+
+.paragraph-style-7 p {
+    /* Layout here */
+    font-size: 10px;
+    margin: 0;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight:100;
+    /* background-color: #dada70; */
+
+
+    /* Decoration here */
+    color: #dada70;
+}
+
+.paragraph-style-8 p {
+    /* Layout here */
+    text-align: justify;
+    
+    /* Decoration here */
+    color: #6d6d6d;
+}
+
+.paragraph-style-9 p {
+    /* Layout here */
+    margin: 0;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 900;
+    
+    /* Decoration here */
+    color: #6d6d6d;
+}
+
+.paragraph-style-10 p {
+    /* Layout here */
+    margin: 0;
+    text-align: justify;
+    line-height: 20px;
+    font-weight: 600;
+
+    /* Decoration here */
+    color: #333333;
+}
+
+.paragraph-style-11 p {
+    /* Layout here */
+    margin: 0;
+    text-align: center;
+    font-size: 15px;
+    line-height: 20px;
+    /* font-weight: 600; */
+
+    /* Decoration here */
+    color: #333333;
+}
+
+.paragraph-style-12 p {
+    /* Layout here */
+    margin: 0;
+    text-align: justify;
+    font-size: 11px;
+    /* border: 1px solid; */
+    /* font-weight: 600; */
+
+    /* Decoration here */
+    color:#9c9c9c;
+    
+}
+
+.paragraph-style-13 p {
+    /* Layout here */
+    margin: 0;
+    text-align: justify;
+    font-size: 11px;
+    /* border: 1px solid; */
+    font-weight: 300;
+    letter-spacing: 1.5px;
+
+    /* Decoration here */
+    color:#d8d8d8;
+    
+}
+
+.paragraph-style-14 p {
+    /* Layout here */
+    margin: 0;
+    text-align: justify;
+    font-size: 20px;
+    /* border: 1px solid; */
+    font-weight: bolder;
+    letter-spacing: 2px;
+
+    /* Decoration here */
+    color:#ffffff;
+    
+}
+
+.paragraph-style-15 p {
+    /* Layout here */
+    margin: 0;
+    text-align: justify;
+    font-size: 14px;
+    /* border: 1px solid; */
+    font-weight: normal;
+    /* text-shadow: 0 0 2px rgb(238, 238, 238); */
+    /* letter-spacing: 2px; */
+    transform: translateY(100px);
+
+    /* Decoration here */
+    color:#ffffff;
+    
+}
+
+.paragraph-style-17 p {
+    /* Layout here */
+    /* margin: 0; */
+    text-align: justify;
+    font-size: 10px;
+    /* border: 1px solid black; */
+    font-weight: 100;
+    /* text-shadow: 0 0 2px rgb(238, 238, 238); */
+    /* letter-spacing: 2px; */
+
+    /* Decoration here */
+    color:#ffffdc;
+    
+}
+
+/* .paragraph-style-16 a {
+    /* Layout here 
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 0;
+    text-align: justify;
+    font-size: 14px;
+    /* border: 1px solid; 
+    font-weight: 600;
+    /* text-shadow: 0 0 2px rgb(238, 238, 238); */
+    /* letter-spacing: 1.1px; 
+    text-decoration: underline;
+    
+    /* Decoration here 
+    color:#ffffca;
+        
+} */
+
+.paragraph-style-20 p {
+    font-size: 11.8px;
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    text-align: justify;
+    margin: 0;
+}
+
+.paragraph-style-21 p {
+    font-size: 11.8px;
+    color: rgb(0, 0, 0);
+    font-weight: 100;
+    text-align: justify;
+    margin: 0;
+}
+
+.paragraph-style-22 p {
+    font-size: 11.8px;
+    color: rgb(0, 0, 0);
+    font-weight: 100;
+    text-align:start;
+    margin: 0;
+}
+
+.paragraph-style-26 p {
+    font-size: 11.8px;
+    color: rgb(184, 184, 184);
+    font-weight: 100;
+    text-align: start;
+    margin: 0;
+}
+
+.paragraph-style-29 p {
+    font-size: 0.8rem;
+    color: rgb(184, 184, 184);
+    font-weight: 100;
+    text-align: justify;
+    margin: 0;
+}
+
+.paragraph-style-31 p {
+    font-size: 0.7rem;
+    color: rgb(184, 184, 184);
+    font-weight: 100;
+    text-align: justify;
+    margin: 0;
+    transition: transform 0.3s ease-in-out,color 1s ease-in-out;
+}
+
+.box187:hover .paragraph-style-31 p {
+    /* transform: scale(1.02); */
+    transform: translateY(7px);
+    color: #c5c5a6;
+}
+
+.paragraph-style-31_2 p {
+    font-size: 0.7rem;
+    color: rgb(184, 184, 184);
+    font-weight: 100;
+    text-align: justify;
+    margin: 0;
+    transition: transform 0.3s ease-in-out,color 1s ease-in-out;
+}
+
+.paragraph-style-32 p{
+    color: rgb(184, 184, 184);
+    font-size: 0.7rem;
+    font-weight: bold;
+    text-align: justify;
+    margin: 0;
+}
+
+.paragraph-style-33 p{
+    font-size: 0.6rem;
+    color: rgb(184, 184, 184);
+    font-weight: bold;
+    text-align: justify;
+    margin: 0;
+}
+
+
+.box187_2:hover .paragraph-style-31_2 p {
+    /* transform: scale(1.02); */
+    transform: translateY(7px);
+    color: #c5c5a6;
+}
+.sm-text-shaddow-ftr2 p{
+    text-align: center;
+    font-size: 12px;
+    transition: all ease-in-out 0.5s;
+    /* text-shadow: 0.1px 0.1px 0.5px rgb(100, 100, 100),0.6px 0.6px 0.5px rgb(120, 120, 120),
+    1.1px 1.1px   rgb(167, 167, 167),
+    1.6px 1.6px  rgb(177, 177, 177) , 2.1px 2.1px   rgb(187, 187, 187),
+    2.6px 2.6px  rgb(197, 197, 197) , 3.1px 4.1px   rgb(207, 207, 207),
+    3.6px 4.6px  rgb(217, 217, 217) , 4.1px 5.2px  0.7px rgb(227, 227, 227); */
+    word-spacing: 3;
+    /* border: 1px solid; */
+    margin: 0;
+    transform: translateY(60px);
+}
+/* -------------------------------------- */
+
+/* The nav element */
+header  .h-box2  nav  {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+}
+/* -------------------------------------- */
+
+/* The ul element */
+header  .h-box2 nav ul {
+    display: flex;
+    gap: 50px;
+    /* border: 1px solid; */
+    justify-content: center;
+    /* margin-bottom: 0; */
+}
+
+.box1 > ul {
+    /* Layout here */
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 0;
+    /* border: 1px solid; */
+
+    /* Decoration here */
+    list-style-type: none;
+    
+}
+
+.box3  ul {
+    /* Layout here */
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    border-radius: 5px;
+    /* border: 1px solid rgb(199, 198, 198); */
+    padding-top: 20px;
+    padding-bottom: 13px;
+    padding-right: 50px;
+    padding-left: 50px;
+    width: fit-content;
+
+    /* Decoration here */
+    list-style-type: none;
+}
+
+.box82 ul {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-right: 2vh;
+    margin-bottom: 0;
+    /* border: 1px solid; */
+}
+
+.border-content6 ul {
+    /* border: 1px solid; */
+    overflow: hidden;
+}
+
+/* ----------------------------------------------- */
+
+/* The li style */
+header .h-box2 nav ul li {
+    list-style-type: none;
+    word-spacing: 5px;
+    /* border: 1px solid; */
+}
+
+header > .h-box2 > nav > ul  li {
+    transition: box-shadow 0.5s; 
+}
+
+header > .h-box2 > nav > ul > li:hover {
+    border-radius: 2px;
+    /* box-shadow:
+    0 0 1px 1px rgb(223, 222, 176),
+    0 0 1px 1.5px rgb(223, 222, 185),
+    0 0 3px 2px rgb(223, 222, 190),
+    0 0 3px 3px rgb(223, 222, 190) */
+
+    /* 0 0 1px 1px  rgb(231, 229, 8),
+    0 0 1px 1.25px  rgb(231, 229, 20),
+    0 0 1px 1.5px  rgb(231, 229, 70),
+    0 0 2px 2px  rgb(231, 229, 80),
+    0 0 5px 2.5px  rgb(231, 229, 90),
+    0 0 7px 3px  rgb(231, 229, 100),
+    0 0 6px 5px  rgb(231, 229, 120),
+    0 0 6px 7px  rgb(231, 229, 135),
+    0 0 8px 9px  rgb(231, 229, 155),
+    0 0 15px 11px  rgb(231, 229, 175),
+    0 0 32px 13px  rgb(231, 229, 130),
+    0 0 40px 15px  rgb(226, 225, 156),
+    0 0 53px 17px rgb(201, 201, 161),
+    0 0 55px 19px  rgb(214, 214, 177) */
+    /* 0 0 13px 10px  rgb(231, 229, 130),
+    0 0 18px 14px  rgb(231, 229, 160)  */
+
+    /* 0 0 2px 2px rgb(231, 229, 1),
+    0 0 3px 4px rgb(231, 229, 2),
+    0 0 5px 6px rgb(231, 229, 3),
+    0 0 15.5px 7px rgb(231, 229, 60),
+    0 0 32.5px 9px rgb(231, 229, 60),0 0 64px 11px rgb(231, 229, 100) */
+    /*7px 10px 30px 18px rgb(231, 229, 73)*/
+    ;    
+}
+
+/* ----------------------------------------- */
+
+/* The ol style */
+.container > .subcontainer > div > #History-m-box1 ol {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+/* ------------------------------------------ */
+
+/* The div style */
+/* .button-container div{
+    text-align: center;
+} */
+
+/* header div { 
+    /* margin-right: 15px; */
+    /* border: 1px solid; 
+}*/
+
+/* .button-container div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-container div *{
+    border: 1px solid;
+} */
+/* ------------------------------------------- */
+
+/* The form element */
+.border-content7 > form{
+    grid-column: 1;
+    grid-row: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container > #Connexion-box2 > form {
+    display: grid;
+    
+}
+
+.container > #Regist-box2 > form {
+    display: grid;
+    
+}
+/* ------------------------------------------- */
+
+/* The article element */
+/* .container > .m-box2 > article {
+    display: flex;
+    gap: 30px;
+} */
+
+.m-box1 article {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    /* background-color: azure; */
+}
+
+/* The a style */
+.h-box2 a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid;  */
+    gap: 3.5px;
+}
+
+.box48 a {
+   color: black;
+}
+
+.container7 a {
+    /* border: 1px solid; */
+    width: fit-content;
+}
+
+a {
+    text-decoration: none;
+}
+
+.link a{
+    /* Layout here */
+    padding: 5px;
+    margin: 0;
+
+    /* Decoration here */
+    font-size: 19px;
+    font-weight: 800;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    transition: background-color ease-in-out  0.27s, transform ease-out 0.5s,color ease-in-out 0.27s ;
+}
+
+.button-container .box93:hover {
+    background-color: rgb(36, 35, 35);
+    
+    border-radius: 5px 2px;
+    transform: scale(1.040);
+    transition: background-color ease-in-out  0.27s, transform ease-out 0.5s,color ease-in-out 0.27s ;
+}
+
+.button-container .box93:hover a{
+    color: white;
+}
+
+.button-container a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    color: black;
+    font-weight: 900;
+    font-size: 16px;
+    /* border: 1px solid; */
+    width: 132px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 14px;
+    padding-top: 14px;
+    text-align: center;
+    /* transform: scale(0.9); */
+    
+}
+
+.button-container2 a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+    color: white;
+    font-weight: bolder;
+    font-size: 16px;
+    /* border: 1px solid; */
+    width: 180px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 14px;
+    padding-top: 14px;
+    text-align: center;
+    background-color: black;
+    /* transform: scale(0.9); */
+}
+
+.button-container2 div {
+    transition: transform ease-out 0.2s;
+}
+
+.button-container2 div:hover {
+    transform: scale(1.020);
+}
+
+
+.button-container3 a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+    color: white;
+    font-weight: bolder;
+    font-size: 16px;
+    /* border: 1px solid; */
+    width: 180px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    text-align: center;
+    background-color: black;
+    /* transform: scale(0.9); */
+}
+
+
+.button-container3 div {
+    transition: transform ease-out 0.2s;
+}
+
+.button-container3 div:hover {
+    transform: scale(1.020);
+}
+
+.button-container4 a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+    color: black;
+    font-weight: bolder;
+    font-size: 12px;
+    /* border: 1px solid; */
+    width: 180px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    text-align: center;
+    /* background-color: black; */
+    /* transform: scale(0.9); */
+}
+
+
+.button-container4 div {
+    transition: background-color ease-in-out  0.27s, transform ease-out 0.2s,color ease-in-out 0.27s ;
+}
+
+.button-container4 div:hover a {
+    color: white;
+}
+
+.button-container4 div:hover {
+    background-color: rgb(0, 0, 0); 
+    border-radius: 5px 2px;
+    transform: scale(1.020);
+}
+
+.button-container5 a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+    color: black;
+    font-weight: bolder;
+    font-size: 12px;
+    /* border: 1px solid; */
+    width: fit-content;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-bottom: 9px;
+    padding-top: 9px;
+    text-align: center;
+    /* background-color: black; */
+    /* transform: scale(0.9); */
+}
+
+.button-container7 a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.button-container-8_2 a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 12.8px;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.button-container9 a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.button-container-10 a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 12.8px;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.box169 a{
+    text-decoration: none;
+    text-decoration: none;
+    color: white;
+}
+
+.paragraph-style-15 a {
+    /* Layout here */
+    margin: 0;
+    text-align: justify;
+    font-size: 14px;
+    /* border: 1px solid; */
+    font-weight: normal;
+    /* text-shadow: 0 0 2px rgb(238, 238, 238); */
+    text-decoration: underline;
+    /* letter-spacing: 2px; */
+    transform: translateY(100px);
+    
+    /* Decoration here */
+    color:#ffffca;
+        
+}
+
+.paragraph-style-16 a {
+    /* Layout here */
+    margin: 0;
+    text-align: justify;
+    font-size: 16px;
+    /* border: 1px solid; */
+    font-weight: normal;
+    /* text-shadow: 0 0 2px rgb(238, 238, 238); */
+    /* letter-spacing: 1.1px; */
+    text-decoration: underline;
+    transform: translateY(100px);
+    
+    /* Decoration here */
+    color:#ffffca;
+        
+}
+
+.paragraph-style-18 p {
+    font-size: 12.8px;
+    color: white;
+    font-weight: normal;
+    text-align: justify;
+    margin: 0;
+}
+
+.paragraph-style-19 p {
+    font-size: 12.8px;
+    color: white;
+    font-weight: 100;
+    text-align: center;
+    margin: 0;
+}
+
+.paragraph-style-23 p {
+    font-size: 15px;
+    color: white;
+    font-weight: normal;
+    text-align: center;
+    margin: 0;
+}
+
+.box174.active p {
+    transform: translateY(0px);
+}
+
+.box122 div {
+    position: relative;
+    /* width: 0; */
+}
+
+.box122_2 div {
+    position: relative;
+    /* width: 0; */
+}
+
+.box122_3 div , .box122_4 div, .box122_5 div , .box122_6 div , .box122_7 div{
+    position: relative;
+    /* width: 0; */
+}
+
+.box122 div::before {
+    content: '';
+    position: absolute;
+    left: 49.9%;
+    bottom: -3px;
+    /* left: 50%;  */
+    transform: translateX(-50%);
+    width: 17px;
+    height: 0;
+    border-bottom: 3px solid #ffffca;
+    transition: width 0.3s, border-bottom 0.3s;
+}
+
+.box122_2 div::before {
+    content: '';
+    position: absolute;
+    left: 49.9%;
+    bottom: -1.3vh;
+    /* left: 50%;  */
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-bottom: 3px solid #ffffca;
+    transition: width 0.3s, border-bottom 0.3s;
+}
+
+.box122_3 div::before ,  .box122_7 div::before{
+    content: '';
+    position: absolute;
+    left: 51%;
+    bottom: -0.8vh;
+    /* left: 50%;  */
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-bottom: 1px solid #ffffca;
+    transition: width 0.3s, border-bottom 0.3s;
+}
+
+.box122_4 div::before {
+    content: '';
+    position: absolute;
+    left: 52%;
+    bottom: -0.8vh;
+    /* left: 50%;  */
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-bottom: 1px solid #ffffca;
+    transition: width 0.3s, border-bottom 0.3s;
+}
+
+.box122_5 div::before {
+    content: '';
+    position: absolute;
+    left: 51.6%;
+    bottom: -0.8vh;
+    /* left: 50%;  */
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-bottom: 1px solid #ffffca;
+    transition: width 0.3s, border-bottom 0.3s;
+}
+
+.box122_6 div::before {
+    content: '';
+    position: absolute;
+    left: 51.6%;
+    bottom: -0.8vh;
+    /* left: 50%;  */
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-bottom: 1px solid #ffffca;
+    transition: width 0.3s, border-bottom 0.3s;
+}
+
+.box122:hover div::before {
+    width: 1.3vw; /* Augmente la largeur au survol */
+    border-bottom: 3px solid white; /* Change le border-bottom pour le rendre visible */
+}
+
+.box122_2:hover div::before {
+    width: 1.3vw; /* Augmente la largeur au survol */
+    border-bottom: 3px solid white; /* Change le border-bottom pour le rendre visible */
+}
+
+.box122_3:hover div::before , .box122_3.active div::before {
+    width: 7.8vw; /* Augmente la largeur au survol */
+    border-bottom: 1px solid #ffffca; /* Change le border-bottom pour le rendre visible */
+}
+
+.box122_4:hover div::before , .box122_4.active div::before {
+    width: 5.0vw; /* Augmente la largeur au survol */
+    border-bottom: 1px solid #ffffca; /* Change le border-bottom pour le rendre visible */
+}
+
+.box122_5:hover div::before , .box122_5.active div::before{
+    width: 8vw; /* Augmente la largeur au survol */
+    border-bottom: 1px solid #ffffca; /* Change le border-bottom pour le rendre visible */
+}
+
+.box122_6:hover div::before , .box122_6.active div::before{
+    width: 9.5vw; /* Augmente la largeur au survol */
+    border-bottom: 1px solid #ffffca; /* Change le border-bottom pour le rendre visible */
+}
+
+.box122_7:hover div::before , .box122_7.active div::before{
+    width: 11.7vw; /* Augmente la largeur au survol */
+    border-bottom: 1px solid #ffffca; /* Change le border-bottom pour le rendre visible */
+}
+
+.box122_2.active div::before {
+    width: 1.3vw; /* Augmente la largeur au survol */
+    border-bottom: 3px solid white; /* Change le border-bottom pour le rendre visible */
+}
+
+.button-container5 div {
+    transition: background-color ease-in-out  0.27s, transform ease-out 0.2s,color ease-in-out 0.27s ;
+}
+
+.button-container5 div:hover a {
+    color: white;
+}
+
+.button-container5 div:hover {
+    background-color: rgb(0, 0, 0); 
+    border-radius: 5px 2px;
+    transform: scale(1.020);
+}
+
+.button-container6 a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+    color: white;
+    font-weight: bolder;
+    font-size: 14px;
+    /* border: 1px solid; */
+    /* width: 180px; */
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 14px;
+    padding-top: 14px;
+    text-align: center;
+    background-color: black;
+    /* transform: scale(0.9); */
+}
+
+.button-container6 div {
+    transition: transform ease-out 0.2s;
+}
+
+.button-container6 div:hover {
+    transform: scale(1.020);
+}
+
+.button8 div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+    width: 13.5vw;
+    height: 6.5vh;
+    background-color: #dada67;
+    border-radius: 5px;
+    /* font-size: 1rem; */
+    letter-spacing: 0.083rem;
+    color: #ffffff;
+    font-weight: 600;
+    transition: border ease-in-out 1s;
+    cursor: pointer;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.link-text a {
+    font-weight:700;
+    color: white;
+    font-size: 17px;
+    display: block;
+    transition: transform 1s;
+}
+
+.link-ftr a{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 4px;
+    margin: 0;
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    transition: background-color ease-in-out  0.27s, transform ease-out 0.5s,color ease-in-out 0.27s ;
+ }
+
+ .link-ftr2 a{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 4px;
+    margin: 0;
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    transition: background-color ease-in-out  0.27s, transform ease-out 0.5s,color ease-in-out 0.27s ;
+ }
+
+ /* .box116 a{
+    /* border: 1px solid; 
+ } */
+
+ header > .h-box2 ul li {
+    /* border-radius: 2px; */
+    /* border: 1px solid rgb(243, 243, 243);    */
+    /* width: 120px; */
+    text-decoration: none;
+    color: #919191;
+    font-family: Calibri, sans-serif;
+    font-weight:550;
+    text-transform: uppercase;
+    transition: border 0.9s,color 1.5s;
+    word-spacing: 0px;
+    font-size: 15.5px;
+    display: block;
+    height: fit-content;
+    /* padding-left: 2px;
+    padding-right: 7px;  */
+}
+
+.box84:hover li{
+    /* box-shadow: inset 0 0 3px 2px rgb(254, 255, 251); */
+    color: black;
+    /* background-color: rgb(253, 253, 195); */
+    /* border: 1px solid rgb(208, 209, 179); */
+    /* transform: scale(1.05); */
+}
+
+.box84.active li{
+    /* box-shadow: inset 0 0 3px 2px rgb(254, 255, 251); */
+    color: black;
+    /* background-color: rgb(253, 253, 195); */
+    /* border: 1px solid rgb(208, 209, 179); */
+    /* transform: scale(1.05); */
+}
+
+.link-text:hover a {
+    transform: scale(1.09);
+}
+/* ------------------------------------------- */
+
+/* The i style */
+/* .image-container-4 i {
+    max-width: 100%;
+    max-height: 100%;
+} */
+
+/* The form */
+.container8  form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* The Ul */
+.box198 ul {
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    margin: 0;
+    padding: 0;
+    gap: 3vw;
+    list-style: none;
+    /* border: 1px solid; */
+}

@@ -1,0 +1,170 @@
+.h1-style {
+    /* Layout here */
+    grid-column: 1;
+    grid-row: 1;
+    position: relative;
+    top: 28px;
+    /* border: 1px solid; */
+    height: fit-content;
+    overflow: hidden;
+
+
+    /* Decoration here */
+    
+
+}
+
+.h1-style-2 {
+    /* Layout here */
+    grid-column: 1;
+    grid-row: 1;
+    position: relative;
+    top: 28px;
+    /* border: 1px solid; */
+    height: fit-content;
+    text-align: center;
+    /* word-spacing: 276px; */
+    font-size: 37.4px;
+    font-weight:900;
+    overflow: hidden;
+
+    /* Decoration here */
+    
+
+}
+
+.h1-style-3 {
+    margin: 0;
+    height: 97px;
+    /* border: 1px solid; */
+    overflow: hidden;
+    
+}
+
+.h1-style-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    width: fit-content;
+    height: fit-content;
+    /* border: 1px solid; */
+    
+}
+
+.h1-style-5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    width: fit-content;
+    height: fit-content;
+    /* border: 1px solid; */
+    
+}
+
+.h1-style-8 {
+    /* border: 1px solid rgb(184, 184, 184); */
+    width: 31vw;
+    /* height: 8vh; */
+    margin-top: 1.5vh;
+}
+
+.h1-style-9 {
+    display: flex;
+    border-bottom: 1px solid rgb(184, 184, 184);
+    width: 9vw;
+    height: 80%;
+     margin-top: 2vh;
+     margin-left: 1vw;
+    /* height: 8vh; */
+}
+
+.h2-style {
+    /* Layout here */
+    margin-top: 0;
+    grid-column: 1;
+    grid-row: 2;
+    /* border: 1px solid; */
+    text-align: center;
+
+    /* Decoration here */
+    color: rgb(27, 27, 27);
+    overflow: hidden;
+}
+
+.h2-style-2 {
+    /* Layout here */
+    position: relative;
+    bottom: 4px;
+    /* border: 1px solid; */
+    font-size: 1.3em;
+    padding: 0;
+
+    /* Decoration here */
+    overflow: hidden;
+}
+
+.h2-style-3 {
+    /* Layout here */
+    padding-top: 6px;
+    padding-left: 6px;
+    /* border: 1px solid white; */
+}
+
+.h2-style-5 {
+    padding-left: 4px;
+}
+
+.h2-style-6 {
+    padding-left: 4px;
+    /* border: 1px solid; */
+    width: 314px;
+    overflow: hidden;
+}
+
+.h2-style-7 {
+    overflow: hidden;
+}
+
+.h2-style-10 {
+    /* Layout here */
+    display: flex;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    font-size: 1.5rem;
+    font-weight:900;
+    width: fit-content;
+    height: 50%;
+    line-height: 5vh;
+    /* white-space: pre-line; */
+    /* border: 1px solid; */
+    /* text-transform: uppercase; */
+    /* letter-spacing: 6px; */
+
+    /* Decoration here */
+    color: white;
+}
+
+.h3-style {
+    /* Layout here */
+    /* border: 1px solid; */
+    height: fit-content;
+    border-radius: 6px;
+    padding: 6.7px;
+
+    /* Decoration here */
+    background-color: #e7e700;
+}
+
+.h3-style-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    /* border: 1px solid; */
+    height: 25px;
+    overflow: hidden;
+
+}

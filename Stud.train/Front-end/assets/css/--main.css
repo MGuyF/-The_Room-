@@ -1,0 +1,79 @@
+
+/* @import url(./Decoration/--Decoration.css); */
+@import url(./font-faces.css);
+@import url(./article.css);
+@import url(./border-content.css);
+@import url(./box-shaddow.css);
+@import url(./boxes.css);
+@import url(./btn.css);
+@import url(./button-container.css);
+@import url(./circle.css);
+@import url(./connexion-box.css);
+@import url(./container.css);
+@import url(./contn-btn.css);
+@import url(./contn-footer.css);
+@import url(./contn-icon-main.css);
+@import url(./contn-icon-title.css);
+@import url(./contn-icon.css);
+@import url(./contn-link-box2-index.css);
+@import url(./contn-link.css);
+@import url(./contn-photo-prfl.css);
+@import url(./contn-title.css);
+@import url(./contn-icon.css);
+@import url(./contn-link.css);
+@import url(./contn-photo-prfl.css);
+@import url(./contn-title.css);
+@import url(./footer-icon.css);
+@import url(./form-footer-box2-layout.css);
+@import url(./h-box.css);
+@import url(./History-2nd-h1.css);
+@import url(./History-m-box.css);
+@import url(./Html_elements.css);
+@import url(./icon-ftr_shaddow.css);
+@import url(./icon-page.css);
+@import url(./icon-scale.css);
+@import url(./icon-shaddow.css);
+@import url(./img-footer-box2-layout.css);
+@import url(./img-scale.css);
+@import url(./input.css);
+@import url(./label.css);
+@import url(./layout1-content-main-index.css);
+@import url(./link-ftr.css);
+@import url(./link-hover.css);
+@import url(./link-text.css);
+@import url(./links.css);
+@import url(./list.css);
+@import url(./logo.css);
+@import url(./m-art1-sect2.css);
+@import url(./m.box.css);
+@import url(./main-title-index.css);
+@import url(./Regist-box.css);
+@import url(./sections.css);
+@import url(./sm-text-shaddow-ftr.css);
+@import url(./sm-text-shaddow.css);
+@import url(./Table-History-Quiz.css);
+@import url(./Title-History-Quiz.css);
+@import url(./white-bg.css);
+@import url(./icon.css);
+/* @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@800&display=swap'); */
+@import url(./image-container.css);
+@import url(./paragraph-style.css);
+@import url(./title-style.css);
+@import url(./image-container.css);
+@import url(./slider.css);
+@import url(./effects.css);
+
+/* .container > .subcontainer  h1 {
+} */
+
+
+/*.container > #Regist-box2 > form > #input1{
+    grid-column:1;
+    grid-row: 6;   
+}
+
+.container > #Regist-box2 > form > #input2{
+    grid-column:1;
+    grid-row: 7;   
+}*/
+
