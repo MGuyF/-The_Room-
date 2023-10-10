@@ -1,0 +1,425 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Stud.Train - Connexion</title>
+        <!-- <link rel="icon" href="../assets/img/Stu.train-favicon.png"  type="image/x-icon"/> -->
+        <link rel="stylesheet" href="../assets/css/--main.css"> 
+        <link rel="stylesheet" href="../assets/css/Font_awesome_css/all.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="../assets/css/icon2.css" rel="stylesheet">
+        <link rel="stylesheet" href="../assets/css/swiper-bundle.min.css">
+        <!-- <script src="../assets/js/my_scripts.js"></script> -->
+        <link rel="apple-touch-icon" sizes="57x57" href="../assets/img/Favicon/Stu.train-favicon.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="../assets/img/Favicon/Stu.train-favicon.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="../assets/img/Favicon/Stu.train-favicon.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/Favicon/Stu.train-favicon.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="../assets/img/Favicon/Stu.train-favicon.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="/Stu.train-favicon.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="../assets/img/Favicon/Stu.train-favicon.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="../assets/img/Favicon/Stu.train-favicon.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="../assets/img/Favicon/Stu.train-favicon.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="../assets/img/Favicon/Stu.train-favicon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/Favicon/Stu.train-favicon.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="../assets/img/Favicon/Stu.train-favicon.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="../assets/img/Favicon/Stu.train-favicon.png">
+        <link rel="manifest" href="../assets/img/Favicon/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="../assets/img/Favicon/Stu.train-favicon.png">
+        <meta name="theme-color" content="#ffffff">
+    </head>
+<body>
+    <div class="container8">
+        <div class="box116">
+            <div class="box158">
+                <div class="box122">
+                    <div>
+                        <a href="./index.html">
+                            <i class="icon21 material-icons">house_siding</i> 
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="box115">
+            <div class="image-container-15">
+                <img src="../assets/img/Stud-train_2.png" alt="logo de Stud.train">
+            </div>
+
+            <form action="" method="post" id="id-form">
+                <div class="box117">
+                    <div class="box118">
+                        <div class="box129_2">
+                            <div class="box119">
+                                <i class="icon22 fas fa-user-shield"></i> 
+                                <div class="box120">
+                                    <input type="text" class="styled-input" placeholder="Entrez votre nom d'utilisateur" id="username-input">
+                                </div>
+                            </div>
+                            <div class="box130">
+                                <div class="box146">
+                                    <div class="box147">
+                                        <i class="icon22 fas fa-key"></i> 
+                                        <div class="box120">
+                                            <input type="password" class="styled-input" placeholder="Entrez votre mot de passe" id="password-input">
+                                        </div>
+                                    </div>
+                                    <div class="box148">
+                                        <i class=" material-icons icon26" id="toggle-password">visibility</i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>   
+                        <button class="button-container7 hoverable-button" id="show-button" type="button">
+                            <div class="box123">
+                                <div class="box124">
+                                    <div class="paragraph-style-14">
+                                        <p>Connexion</p>
+                                    </div>
+                                    <i class="icon23 fas fa-door-open"></i>
+                                </div>
+                            </div>
+                            <div class="box154_4">
+                                <div class="box154_3">
+                                    <div class="loading-spinner2"></div>
+                                </div>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>  
+        
+        <div class="box127_2">
+            <div class="box125">
+                <div class="paragraph-style-15">
+                    <p>Pas encore inscrit(e) ?</p> <a href="./Registration.html">Créer un compte</a>
+                </div>
+                
+                <div class="box126">
+                    <div class="paragraph-style-16">
+                        <a href="./A_propos.html">Consultez nos politiques de sécurité et de confidentialité
+                            <i class="icon24 fas fa-balance-scale"></i> 
+                        </a>
+                    </div>
+                </div>
+    
+            </div>  
+        </div>
+    </div>
+    <!-- Message d'erreur -->
+    <div class="overlay-message">
+        <div class="box135">
+            <div class="box136">
+                <i class="fas fa-exclamation-triangle icon27"></i>
+            </div>
+            <div class="box137">
+                <div class="paragraph-style-23">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus, ipsum sapiente? </p>
+                </div>
+            </div>
+            <div class="button-container-8_3" id="retry-btn">Ressayer</div>
+        </div>
+    </div>
+    <script src="../assets/js/Font_awesome_js/all.js" defer></script>
+    <script src="../assets/js/gsap.min.js" defer></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const passwordInput = document.getElementById('password-input');
+            const togglePassword = document.getElementById('toggle-password');
+
+            togglePassword.addEventListener('click', () => {
+                if (passwordInput.type === 'password') {
+                    passwordInput.type = 'text';
+                    togglePassword.textContent = 'visibility_off';
+                } else {
+                    passwordInput.type = 'password';
+                    togglePassword.textContent = 'visibility';
+                }
+            });
+        });
+    </script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const UsrnameInput = document.getElementById('username-input');
+            const pwdInput = document.getElementById('password-input');
+            const box2 = document.querySelector('.box154_3');
+            const overlay = document.querySelector('.overlay-message');
+            const showButton = document.getElementById('show-button');
+            const box = overlay.querySelector('.box135');
+            const form = document.getElementById('id-form');
+            const retryBtn = document.getElementById('retry-btn');
+            const box4 = document.querySelector('.box158');
+            const box5 = document.querySelector('.paragraph-style-15 p');
+            const box6 = document.querySelector('.paragraph-style-15 a');
+            const box7 = document.querySelector('.paragraph-style-16 a');
+            
+            let boutonClique = false;
+
+            showButton.addEventListener('click', () => {
+                
+                if (!UsrnameInput.value || !pwdInput.value) {
+                // Un ou plusieurs champs sont vides, afficher un message d'erreur
+                if (!UsrnameInput.value) {
+                    UsrnameInput.placeholder = "Ce champ est requis !";
+                    UsrnameInput.style.borderBottom = '2px solid red'
+                }
+                if (!pwdInput.value) {
+                    pwdInput.placeholder = "Ce champ est requis !";
+                    pwdInput.style.borderBottom = '2px solid red'
+                }
+                showButton.style.pointerEvents = 'none';
+                event.preventDefault();
+
+                }else
+                {   
+                    boutonClique = true;
+                    box3.classList.add('hoveredClign');
+                    showButton.classList.add('hoveredClign2');
+                    showButton.style.pointerEvents = 'none';
+                    form.style.pointerEvents = 'none';
+                    gsap.to(box2,{
+                        onStart:()=>{
+                            gsap.set(box2,{display:'flex'});
+                            
+                        },
+                        y: 0,
+                        duration: 0.5,
+                        ease: 'power3.in',
+                        onComplete:()=>
+                        {
+                            fetch('url_de_traitement.php', {
+                                method: 'POST',
+                                body: new FormData(form)
+                            })
+                            .then(response => response.json())
+                            .then(data => {
+                                // loadingDialog.style.display = 'none';
+
+                                if (data.success) {
+                                    gsap.set(box4,{
+                                        display: 'flex',
+                                            onComplete:()=>{
+                                                gsap.to(box4,{
+                                                    x: 0,
+                                                    duration:0.5,
+                                                    ease: 'power3.in',
+                                                    onComplete:()=>{
+
+                                                    }
+                                                })
+                                            }
+
+                                    })
+                                } else {
+                                    gsap.to(overlay, {
+                                        opacity: 1,
+                                        duration: 0.3, // Durée de la transition en secondes
+                                        onStart: () => {
+                                            overlay.style.pointerEvents = 'auto';
+                                        },
+                                        onComplete:()=>{
+                                            gsap.to(box2,{
+                                                y: -90,
+                                                duration: 0.3,
+                                                ease: 'power3.in',
+                                                onComplete:()=>{
+                                                    gsap.to(box, {
+                                                        x: 0,
+                                                        duration: 0.5,
+                                                        ease: 'power3.out'
+                                                    });    
+                                                }
+
+                                            })  
+                                        }
+                                    });
+                                }
+                            })
+                            .catch(error => {
+                                gsap.to(overlay, {
+                                    opacity: 1,
+                                    duration: 0.3, // Durée de la transition en secondes
+                                    onStart: () => {
+                                        overlay.style.pointerEvents = 'auto';
+                                    },
+                                    onComplete:()=>{
+                                        gsap.to(box2,{
+                                            y: -90,
+                                            duration: 0.3,
+                                            ease: 'power3.in',
+                                            onComplete:()=>{
+                                                gsap.to(box, {
+                                                    x: 0,
+                                                    duration: 0.5,
+                                                    ease: 'power3.out',
+                                                    onComplete:()=>{
+                                                        showButton.style.pointerEvents = 'none';
+                                                        box3.classList.remove('hovered');
+                                                        box3.classList.remove('hoveredClign');
+                                                        showButton.classList.remove('hoveredClign2');
+                                                        boutonClique = false
+                                                    }
+                                                });  
+                                            }
+
+                                        })  
+                                    }
+                                }); 
+                            });
+                
+                        }
+                    })
+                }
+
+            });
+
+
+            const UsrnameInputOriginalPlaceholder = UsrnameInput.placeholder;
+            const pwdInputOriginalPlaceholder = pwdInput.placeholder;
+
+            function clearErrorStyles(inputElement) {
+                // inputElement.style.borderBottom = 'none';
+                if (inputElement === UsrnameInput) {
+                    inputElement.placeholder = UsrnameInputOriginalPlaceholder;
+                    UsrnameInput.style.borderBottom = '2px solid #ffffdc';
+                } else if (inputElement === pwdInput) {
+                    inputElement.placeholder = pwdInputOriginalPlaceholder;
+                    pwdInput.style.borderBottom = '2px solid #ffffdc';
+                }
+                // inputElement.style.borderBottom = '2px solid rgb(184, 184, 184)';
+                showButton.style.pointerEvents = 'auto'; //
+            };
+
+            function applyBlurStyle(inputElement) {
+                inputElement.style.borderBottom = '2px solid rgb(184, 184, 184)'; // Appliquer le style souhaité pour le focus
+            };
+
+            UsrnameInput.addEventListener('focus',(event) =>{
+
+                clearErrorStyles(UsrnameInput)
+            });
+
+            pwdInput.addEventListener('focus',(event) =>{
+
+            clearErrorStyles(pwdInput)
+            });
+
+            UsrnameInput.addEventListener('blur',(event) =>{
+
+                applyBlurStyle(UsrnameInput)
+            });
+
+            pwdInput.addEventListener('blur',(event) =>{
+
+                applyBlurStyle(pwdInput)
+            });
+
+
+
+
+            retryBtn.addEventListener('click', () =>{
+                form.style.pointerEvents = 'auto';
+                gsap.to(box,{
+                    x: 700,
+                    duration: 0.4,
+                    ease: 'power3.out',
+                    onComplete: () => {
+                        overlay.style.pointerEvents = 'none';
+                        gsap.to(overlay, {
+                            opacity: 0,
+                            duration: 0.4, // Durée de la transition en secondes
+                            delay: 0.2, // Délai avant le début de la transition
+                            ease: 'power3.out',
+                            onComplete: () => {
+                                overlay.style.opacity = 0; // Assurez-vous que l'opacité soit à 0
+                                showButton.style.pointerEvents = 'auto'
+                            }
+                        });
+                    },
+                })
+            })
+
+            const buttons = document.querySelectorAll('.hoverable-button');
+            const box3 = document.querySelector('.box115');
+    
+            buttons.forEach(button => {
+                button.addEventListener('mouseover', () => {
+                    
+                    // Vérifiez si le bouton a été cliqué
+                    if (!boutonClique || !UsrnameInput.value || !pwdInput.value) {
+                        // Ajoutez la classe "hovered" à .box3
+                        box3.classList.add('hovered');
+                    }
+                });
+
+                button.addEventListener('mouseout', () => {
+                    
+                    // Vérifiez si le bouton a été cliqué
+                    if (!boutonClique || !UsrnameInput.value || !pwdInput.value) {
+                        // Supprimez la classe "hovered" de .box3
+                        box3.classList.remove('hovered');
+                    }
+                });
+            })
+
+            gsap.to(box3,{
+                y: 0,
+                duration: 0.69, // Durée de l'animation en secondes
+                ease: "cubic-bezier(0.25, 0.1, 0.25, 1)",
+                // onComplete:()=> {
+                //     box3.classList.remove('hovered_3')
+                // }
+            }),
+            gsap.to(box4,{
+                x: 0,
+                // duration: 0.5,
+                duration: 0.61, // Durée de l'animation en secondes
+                ease: "cubic-bezier(0.25, 0.1, 0.25, 1)",
+                onComplete:()=>{
+                    gsap.to(box5,{
+                        y: 0,
+                        duration: 0.6, // Durée de l'animation en secondes
+                        ease: "cubic-bezier(0.25, 0.1, 0.25, 1)",
+                        onComplete:()=>{
+                            
+                        }
+                    }) 
+                    gsap.to(box6,{
+                        y: 0,
+                        duration: 0.78, // Durée de l'animation en secondes
+                        ease: "cubic-bezier(0.25, 0.1, 0.25, 1)",
+                        onComplete:()=>{
+                                
+                        }
+                    })
+                    gsap.to(box7,{
+                        y: 0,
+                        duration: 1.5, // Durée de l'animation en secondes
+                        ease: "cubic-bezier(0.25, 0.1, 0.25, 1)",
+                        onComplete:()=>{
+        
+                        }
+                    })
+
+                    gsap.to(box3,{
+                        onStart:()=>{
+                            box3.classList.add('hovered_3')
+                        },
+                        duration: 1.7,
+                        ease: 'power1.out',
+                        onComplete:()=>{
+                            box3.classList.remove('hovered_3')
+                        }
+
+                    })
+
+                }
+            }) 
+        })
+    </script>
+</body>
+</html>
